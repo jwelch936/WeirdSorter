@@ -19,21 +19,21 @@ public class weirdSorterTM {
 		array.add(7);
 		array.add(4);
 		array.add(1);
-		array.add(9);
-		array.add(5);
-		array.add(1);
-		array.add(2);
-		array.add(5);
 		array.add(4);
-		array.add(7);
-		array.add(5);
+		array.add(6);
+		array.add(6);
 		
 		System.out.print("Original array:\t" + array.toString());
 		
 		List<Integer> sortedArray = weirdSort(array);
 		System.out.print("\nSorted array:\t" + sortedArray.toString());
-		
 	}
+	
+	
+	
+	
+	
+	
 	
 	private static List<Integer> weirdSort(List<Integer> a) throws FileNotFoundException {
 		try {
